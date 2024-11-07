@@ -1,1 +1,68 @@
-
+body {
+            font-family: Arial, sans-serif;
+            background-color: #bd1313;
+            margin: 0;
+            padding: 20px;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .logo img {
+            max-width: 150px;
+        }
+        .header {
+            text-align: center;
+            font-size: 24px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .hero-image {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .body-content {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: block;
+            text-align: center;
+            background-color: #007BFF;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 0 auto;
+            width: fit-content;
+        }
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #999999;
+            margin-top: 30px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            color: #333;
+            font-size: 24px;
+            transition: color 0.3s;
+        }
+        .unsubscribe {
+            display: block;
+            margin-top: 10px;
+            color: #999999;
+            text-decoration: none;
+        }
